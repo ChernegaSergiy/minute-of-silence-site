@@ -16,8 +16,8 @@ A brutalist landing page for the Minute of Silence desktop app built with [Concr
 
 ## Technologies Used
 
-- **HTML/CSS**: Core web technologies for structure and styling.
-- **Concrete CSS**: Brutalist CSS framework developed by MedCore UA team.
+- **HTML/CSS**: Core web technologies for structure and styling
+- **Concrete CSS**: Brutalist CSS framework developed by MedCore UA team
 
 ## Getting started
 
