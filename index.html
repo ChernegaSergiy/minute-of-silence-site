@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хвилина Мовчання — Автоматична церемонія</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/framework.css">
+    <style>
+        .faq-details {
+            border: 2px solid #000;
+            background: #fff;
+            margin-bottom: 0.5rem;
+        }
+        .faq-summary {
+            padding: 0.9rem;
+            cursor: pointer;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        .faq-summary::-webkit-details-marker { display: none; }
+        .faq-summary::after { content: '+'; font-weight: 900; }
+        .faq-details[open] .faq-summary::after { content: '−'; }
+        .faq-content {
+            padding: 0.9rem;
+            border-top: 2px solid #000;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    
+    <!-- Top Strip -->
+    <div class="top-strip">
+        <div class="top-strip__emergency">🇺🇦 Хвилина Мовчання</div>
+        <div>
+            <span class="badge">Windows 10/11</span>
+            <span class="badge">Linux</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-inner">
+            <div class="logo-block">
+                <div class="logo-mark" aria-hidden="true">ХМ</div>
+                <div class="logo-text">
+                    <div class="logo-text__title">Хвилина Мовчання</div>
+                    <div class="logo-text__subtitle">Desktop App</div>
+                </div>
+            </div>
+
+            <button class="nav-toggle" id="navToggle" aria-expanded="false">МЕНЮ <span></span></button>
+
+            <nav id="mainNav" aria-label="Основна навігація">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="#about">Про</a></li>
+                    <li><a class="nav-link" href="#features">Функції</a></li>
+                    <li><a class="nav-link" href="#presets">Пресети</a></li>
+                    <li><a class="nav-link" href="#download">Завантажити</a></li>
+                    <li><a class="nav-link" href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <div>
+                        <div class="hero__kicker">Автоматична церемонія</div>
+                        <h1 class="hero__title">Хвилина Мовчання</h1>
+                        <p class="hero__subtitle">
+                            Автоматичне проведення хвилини мовчання о 9:00 щодня. 
+                            8 аудіо пресетів на вибір.
+                        </p>
+                        <div class="hero__actions">
+                            <a href="#download" class="btn btn--primary">Завантажити</a>
+                            <a href="#features" class="btn btn--ghost">Функції</a>
+                        </div>
+                        <div class="hero__meta">
+                            <div class="hero__meta-item">
+                                <span class="hero__meta-label">АКТИВУЄТЬСЯ</span>
+                                <span class="hero__meta-value">09:00 ЩОДНЯ</span>
+                            </div>
+                            <div class="hero__meta-item">
+                                <span class="hero__meta-label">ПРЕСЕТІВ</span>
+                                <span class="hero__meta-value">8 ВАРІАНТІВ</span>
+                            </div>
+                            <div class="hero__meta-item">
+                                <span class="hero__meta-label">ПЛАТФОРМА</span>
+                                <span class="hero__meta-value">WINDOWS / LINUX</span>
+                            </div>
+                        </div>
+                    </div>
+                    <aside class="hero__image">
+                        <div class="hero__image-label">Скріншот додатку</div>
+                        <div class="hero__image-placeholder">Головне вікно з налаштуваннями</div>
+                        <div class="hero__image-caption">Мінімалістичний інтерфейс налаштувань</div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <header class="section__header">
+                    <div class="section__eyebrow">Про проект</div>
+                    <h2 class="section__title section__title--compact">Що це таке?</h2>
+                    <p class="section__description">
+                        Настільний додаток для Windows та Linux, який автоматично 
+                        проводить хвилину мовчання о 9:00 щодня.
+                    </p>
+                </header>
+                <div class="about-grid">
+                    <article class="about-block">
+                        <div class="about-block__label">Коротко</div>
+                        <div class="about-block__content">
+                            Працює у фоновому режимі, не споживає багато ресурсів. 
+                            Автоматично запускається з системою. Підтримує NTP-синхронізацію часу.
+                        </div>
+                    </article>
+                    <article class="about-block">
+                        <div class="about-block__label">Факти</div>
+                        <ul class="about-facts">
+                            <li><span>Версія</span><span class="about-facts__value">0.5.1</span></li>
+                            <li><span>Ліцензія</span><span class="about-facts__value">CSSM Unlimited v2.0</span></li>
+                            <li><span>Мова інтерфейсу</span><span class="about-facts__value">Українська, English</span></li>
+                            <li><span>Розмір</span><span class="about-facts__value">~15 MB</span></li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="section">
+            <div class="container">
+                <header class="section__header">
+                    <div class="section__eyebrow">Можливості</div>
+                    <h2 class="section__title section__title--compact">Функції</h2>
+                    <p class="section__description">
+                        Все необхідне для проведення церемонії.
+                    </p>
+                </header>
+
+                <div class="departments-list">
+                    <article class="department-item">
+                        <div class="department-item__name">⏰ Автоматично</div>
+                        <div class="department-item__meta">Запускається з Windows/Linux і щодня о 9:00 проводить церемонію</div>
+                    </article>
+                    <article class="department-item">
+                        <div class="department-item__name">🔇 Зупиняє медіа</div>
+                        <div class="department-item__meta">Призупиняє музику та відео у всіх додатках автоматично</div>
+                    </article>
+                    <article class="department-item">
+                        <div class="department-item__name">🔔 Сигнал</div>
+                        <div class="department-item__meta">Відтворює звуковий сигнал на початку та в кінці церемонії</div>
+                    </article>
+                    <article class="department-item">
+                        <div class="department-item__name">💾 NTP синхронізація</div>
+                        <div class="department-item__meta">Точний час через NTP-сервер, навіть якщо системний час відстає</div>
+                    </article>
+                    <article class="department-item">
+                        <div class="department-item__name">📅 Пропуск дня</div>
+                        <div class="department-item__meta">Можливість пропустити церемонію на конкретний день</div>
+                    </article>
+                    <article class="department-item">
+                        <div class="department-item__name">🔊 Керування звуком</div>
+                        <div class="department-item__meta">Автоматичне керування гучністю під час церемонії</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Presets Section -->
+        <section id="presets" class="section">
+            <div class="container">
+                <header class="section__header">
+                    <div class="section__eyebrow">Аудіо</div>
+                    <h2 class="section__title section__title--compact">8 Пресетів</h2>
+                    <p class="section__description">
+                        Обирайте один із 8 варіантів проведення церемонії.
+                    </p>
+                </header>
+
+                <div class="doctors-grid">
+                    <article class="doctor-card">
+                        <div class="doctor-avatar">1</div>
+                        <div class="doctor-info">
+                            <div class="doctor-info__name">Голос + метроном</div>
+                            <div class="doctor-info__role">Оголошення з метрономом</div>
+                            <div class="doctor-info__meta">Класичний варіант з голосовим оголошенням та метрономом</div>
+                        </div>
+                    </article>
+                    <article class="doctor-card">
+                        <div class="doctor-avatar">2</div>
+                        <div class="doctor-info">
+                            <div class="doctor-info__name">Метроном</div>
+                            <div class="doctor-info__role">Тільки метроном</div>
+                            <div class="doctor-info__meta">Метроном без голосу</div>
+                        </div>
+                    </article>
+                    <article class="doctor-card">
+                        <div class="doctor-avatar">3</div>
+                        <div class="doctor-info">
+                            <div class="doctor-info__name">Голос + тиша + дзвін</div>
+                            <div class="doctor-info__role">Оголошення, 60с тиші, дзвін</div>
+                            <div class="doctor-info__meta">Традиційний варіант з дзвінком наприкінці</div>
+                        </div>
+                    </article>
+                    <article class="doctor-card">
+                        <div class="doctor-avatar">4</div>
+                        <div class="doctor-info">
+                            <div class="doctor-info__name">Голос + тиша</div>
+                            <div class="doctor-info__role">Оголошення, 60с тиші</div>
+                            <div class="doctor-info__meta">Простий варіант з голосовим оголошенням</div>
+                        </div>
+                    </article>
+                    <article class="doctor-card">
+                        <div class="doctor-avatar">5</div>
+                        <div class="doctor-info">
+                            <div class="doctor-info__name">Голос + метроном + гімн</div>
+                            <div class="doctor-info__role">Оголошення, метроном, гімн</div>
+                            <div class="doctor-info__meta">Повний варіант з національним гімном</div>
+                        </div>
+                    </article>
+                    <article class="doctor-card">
+                        <div class="doctor-avatar">6</div>
+                        <div class="doctor-info">
+                            <div class="doctor-info__name">Метроном + гімн</div>
+                            <div class="doctor-info__role">Метроном, потім гімн</div>
+                            <div class="doctor-info__meta">Метроном і гімн без голосу</div>
+                        </div>
+                    </article>
+                    <article class="doctor-card">
+                        <div class="doctor-avatar">7</div>
+                        <div class="doctor-info">
+                            <div class="doctor-info__name">Дзвін + тиша + дзвін</div>
+                            <div class="doctor-info__role">Дзвін, 60с тиші, дзвін</div>
+                            <div class="doctor-info__meta">Класичний дзвінковий варіант</div>
+                        </div>
+                    </article>
+                    <article class="doctor-card">
+                        <div class="doctor-avatar">8</div>
+                        <div class="doctor-info">
+                            <div class="doctor-info__name">Дзвін + метроном + дзвін</div>
+                            <div class="doctor-info__role">Дзвін, метроном, дзвін</div>
+                            <div class="doctor-info__meta">Дзвін на початку та в кінці</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section id="download" class="section">
+            <div class="container">
+                <header class="section__header">
+                    <div class="section__eyebrow">Встановлення</div>
+                    <h2 class="section__title section__title--compact">Завантажити</h2>
+                    <p class="section__description">
+                        Безкоштовне завантаження для Windows та Linux.
+                    </p>
+                </header>
+
+                <div class="booking-layout">
+                    <div class="dept-info-block">
+                        <h3>Хвилина Мовчання</h3>
+                        <p>Версія 0.5.1</p>
+                        <div class="about-facts">
+                            <li><span>Платформа</span><span class="about-facts__value">Windows 10/11, Linux</span></li>
+                            <li><span>Розмір</span><span class="about-facts__value">~15 MB</span></li>
+                            <li><span>Ліцензія</span><span class="about-facts__value">CSSM Unlimited v2.0</span></li>
+                            <li><span>Мова</span><span class="about-facts__value">Українська, English</span></li>
+                        </div>
+                        <br>
+                        <a href="https://github.com/ChernegaSergiy/minute-of-silence/releases" class="btn btn--primary" target="_blank">
+                            Завантажити з GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section">
+            <div class="container">
+                <header class="section__header">
+                    <div class="section__eyebrow">Підтримка</div>
+                    <h2 class="section__title section__title--compact">Часті питання</h2>
+                </header>
+
+                <details class="faq-details">
+                    <summary class="faq-summary">Чи потрібно встановлювати?</summary>
+                    <div class="faq-content">Так, це настільний додаток для Windows/Linux. Встановлюється один раз і автоматично запускається з системою.</div>
+                </details>
+
+                <details class="faq-details">
+                    <summary class="faq-summary">Споживає багато ресурсів?</summary>
+                    <div class="faq-content">Ні, працює у фоновому режимі. Активується лише на короткий час о 9:00.</div>
+                </details>
+
+                <details class="faq-details">
+                    <summary class="faq-summary">Можна змінити час?</summary>
+                    <div class="faq-content">Наразі час фіксований — 9:00. Це відповідає традиційному часу проведення хвилини мовчання в Україні.</div>
+                </details>
+
+                <details class="faq-details">
+                    <summary class="faq-summary">Можна пропустити церемонію?</summary>
+                    <div class="faq-content">Так, через інтерфейс додатку або системний трей.</div>
+                </details>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-row">
+                <div>Хвилина Мовчання · <a href="#">GitHub</a> · <a href="#">Releases</a></div>
+                <div>© 2024-2026</div>
+            </div>
+            <div class="footer-row" style="opacity: 0.7; border-top: 1px solid #000; padding-top: 0.5rem; margin-top: 0.5rem;">
+                <div>Мінімалістичний бруталізм · Чорне / біле · Без зайвих ефектів</div>
+                <div>Зроблено в Україні 🇺🇦</div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Toggle menu
+    const navToggle = document.getElementById('navToggle');
+    const mainNav = document.getElementById('mainNav');
+    if (navToggle && mainNav) {
+        navToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('open');
+        });
+    }
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({behavior: 'smooth'});
+                mainNav.classList.remove('open');
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>
