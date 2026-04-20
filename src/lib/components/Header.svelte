@@ -1,5 +1,5 @@
 <script>
-  let menuOpen = $state(false);
+  export let menuOpen = false;
 </script>
 
 <header class="header">
@@ -15,7 +15,7 @@
     <button 
       class="nav-toggle" 
       aria-expanded={menuOpen}
-      onclick={() => menuOpen = !menuOpen}
+      on:click={() => menuOpen = !menuOpen}
     >
       МЕНЮ <span></span>
     </button>
