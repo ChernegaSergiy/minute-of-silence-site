@@ -16,7 +16,8 @@ A brutalist landing page for the Minute of Silence desktop app built with [Concr
 
 ## Technologies Used
 
-- **HTML/CSS**: Core web technologies for structure and styling
+- **Svelte 4**: Reactive UI framework
+- **Vite**: Build tool and dev server
 - **Concrete CSS**: Brutalist CSS framework developed by MedCore UA team
 
 ## Getting started
@@ -27,11 +28,15 @@ To get a local copy up and running, follow these simple steps:
    ```bash
    git clone https://github.com/ChernegaSergiy/minute-of-silence-site.git
    ```
-2. Open `index.html` directly in your browser, or start a local server:
+2. Install dependencies:
    ```bash
-   python3 -m http.server 8080
+   npm install
    ```
-3. Navigate to [http://localhost:8080](http://localhost:8080) in your browser.
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Navigate to [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Deployment
 
