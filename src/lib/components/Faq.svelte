@@ -1,5 +1,5 @@
 <script>
-  export let openIndex = null;
+  let openIndex = $state(null);
 
   const faqs = [
     { q: 'Чи потрібно встановлювати?', a: 'Так, це настільний додаток для Windows/Linux. Встановлюється один раз і автоматично запускається з системою.' },
@@ -24,7 +24,7 @@
     <div class="accordion-group">
       {#each faqs as faq, index}
         <details class="accordion" open={openIndex === index}>
-          <summary class="accordion-trigger" on:click|preventDefault={() => toggle(index)}>
+          <summary class="accordion-trigger" onclick={(e) => { e.preventDefault(); toggle(index); }}>
             {faq.q} <span class="accordion-icon"></span>
           </summary>
           <div class="accordion-content">
