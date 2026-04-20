@@ -16,7 +16,7 @@ A brutalist landing page for the Minute of Silence desktop app built with [Concr
 
 ## Technologies Used
 
-- **Svelte 4**: Reactive UI framework
+- **Svelte 5**: Reactive UI framework
 - **Vite**: Build tool and dev server
 - **Concrete CSS**: Brutalist CSS framework developed by MedCore UA team
 
