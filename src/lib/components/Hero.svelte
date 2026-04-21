@@ -32,7 +32,7 @@
       </div>
       <aside class="hero__image">
         <div class="hero__image-label">Скріншот додатку</div>
-        <img src="/images/screenshot.png" alt="Головне вікно з налаштуваннями" class="w-full" style="max-height: 180px; object-fit: contain;">
+        <img src="/images/screenshot.png" alt="Головне вікно з налаштуваннями" class="w-full" style="max-height: 180px; object-fit: contain;" fetchpriority="high">
         <div class="hero__image-caption">Мінімалістичний інтерфейс налаштувань</div>
       </aside>
     </div>
