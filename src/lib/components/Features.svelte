@@ -1,41 +1,40 @@
 <script>
+  import { t } from '../i18n/index.js';
 </script>
 
 <section id="features" class="section">
   <div class="container">
     <header class="section__header">
-      <div class="section__eyebrow">Можливості</div>
-      <h2 class="section__title section__title--compact">Функції</h2>
-      <p class="section__description">
-        Все необхідне для проведення церемонії.
-      </p>
+      <div class="section__eyebrow">{$t.features.eyebrow}</div>
+      <h2 class="section__title section__title--compact">{$t.features.title}</h2>
+      <p class="section__description">{$t.features.description}</p>
     </header>
 
     <div class="panel">
       <div class="grid md:grid-cols-2">
         <div class="list-item">
-          <div class="list-item__name">⏰ Автоматично</div>
-          <div class="list-item__meta">Запускається з Windows/Linux і щодня о 9:00 проводить церемонію</div>
+          <div class="list-item__name">{$t.features.auto.name}</div>
+          <div class="list-item__meta">{$t.features.auto.meta}</div>
         </div>
         <div class="list-item">
-          <div class="list-item__name">🔇 Зупиняє медіа</div>
-          <div class="list-item__meta">Призупиняє музику та відео у всіх додатках автоматично</div>
+          <div class="list-item__name">{$t.features.media.name}</div>
+          <div class="list-item__meta">{$t.features.media.meta}</div>
         </div>
         <div class="list-item">
-          <div class="list-item__name">🔔 Сигнал</div>
-          <div class="list-item__meta">Відтворює звуковий сигнал на початку та в кінці церемонії</div>
+          <div class="list-item__name">{$t.features.signal.name}</div>
+          <div class="list-item__meta">{$t.features.signal.meta}</div>
         </div>
         <div class="list-item">
-          <div class="list-item__name">💾 NTP синхронізація</div>
-          <div class="list-item__meta">Точний час через NTP-сервер, навіть якщо системний час відстає</div>
+          <div class="list-item__name">{$t.features.ntp.name}</div>
+          <div class="list-item__meta">{$t.features.ntp.meta}</div>
         </div>
         <div class="list-item">
-          <div class="list-item__name">📅 Пропуск дня</div>
-          <div class="list-item__meta">Можливість пропустити церемонію на конкретний день</div>
+          <div class="list-item__name">{$t.features.skip.name}</div>
+          <div class="list-item__meta">{$t.features.skip.meta}</div>
         </div>
         <div class="list-item">
-          <div class="list-item__name">🔊 Керування звуком</div>
-          <div class="list-item__meta">Автоматичне керування гучністю під час церемонії</div>
+          <div class="list-item__name">{$t.features.volume.name}</div>
+          <div class="list-item__meta">{$t.features.volume.meta}</div>
         </div>
       </div>
     </div>
