@@ -22,8 +22,8 @@
   <div class="top-strip">
     <div class="top-strip__emergency">🇺🇦 {$t.hero.title}</div>
     <div class="flex items-center gap-2">
-      <span class="badge">{$t.download.platformValue.split(', ')[0]}</span>
-      <span class="badge">{$t.download.platformValue.split(', ')[1]}</span>
+      <span class="badge">{$t.download.platforms[0]}</span>
+      <span class="badge">{$t.download.platforms[1]}</span>
     </div>
   </div>
 

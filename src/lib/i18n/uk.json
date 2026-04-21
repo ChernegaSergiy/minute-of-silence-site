@@ -107,6 +107,7 @@
     "panelTitle": "Хвилина мовчання",
     "platform": "Платформа",
     "platformValue": "Windows 10/11, Linux",
+    "platforms": ["Windows 10/11", "Linux"],
     "license": "Ліцензія",
     "size": "Розмір",
     "language": "Мова",
