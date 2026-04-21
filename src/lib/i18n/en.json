@@ -1,0 +1,131 @@
+{
+  "header": {
+    "logoTitle": "Minute of Silence",
+    "logoSubtitle": "Desktop App",
+    "nav": {
+      "about": "About",
+      "features": "Features",
+      "presets": "Presets",
+      "origin": "Origin",
+      "download": "Download",
+      "faq": "FAQ"
+    }
+  },
+  "hero": {
+    "kicker": "Automatic Ceremony",
+    "title": "Minute of Silence",
+    "subtitle": "Automatically conducts a minute of silence daily at 9:00 AM. 10 audio presets to choose from.",
+    "download": "Download",
+    "features": "Features",
+    "activates": "ACTIVATES",
+    "activatesValue": "09:00 DAILY",
+    "presets": "PRESETS",
+    "presetsValue": "10 VARIANTS",
+    "platform": "PLATFORM",
+    "platformValue": "WINDOWS / LINUX",
+    "imageLabel": "App Screenshot",
+    "imageCaption": "Minimalist settings interface"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "What is it?",
+    "description": "Desktop app for Windows and Linux that automatically conducts a minute of silence at 9:00 AM daily.",
+    "shortly": "Briefly",
+    "shortlyContent": "Runs in background with minimal resource usage. Starts automatically with the system. Supports NTP time synchronization.",
+    "facts": "Facts",
+    "factsList": {
+      "version": "Version",
+      "license": "License",
+      "language": "Interface Language",
+      "size": "Size"
+    },
+    "factsLicense": "CSSM Unlimited v2.0",
+    "factsLanguages": "Ukrainian, English"
+  },
+  "features": {
+    "eyebrow": "Capabilities",
+    "title": "Features",
+    "description": "Everything needed to conduct the ceremony.",
+    "auto": {
+      "name": "⏰ Automatic",
+      "meta": "Starts with Windows/Linux and conducts the ceremony daily at 9:00 AM"
+    },
+    "media": {
+      "name": "🔇 Stops Media",
+      "meta": "Automatically pauses music and video in all apps"
+    },
+    "signal": {
+      "name": "🔔 Signal",
+      "meta": "Plays audio signal at the beginning and end of the ceremony"
+    },
+    "ntp": {
+      "name": "💾 NTP Sync",
+      "meta": "Precise time via NTP server, even if system time is off"
+    },
+    "skip": {
+      "name": "📅 Skip Day",
+      "meta": "Option to skip the ceremony for a specific day"
+    },
+    "volume": {
+      "name": "🔊 Volume Control",
+      "meta": "Automatic volume control during the ceremony"
+    }
+  },
+  "presets": {
+    "eyebrow": "Audio",
+    "title": "10 Presets",
+    "description": "Choose from 10 variants of conducting the ceremony.",
+    "list": [
+      { "title": "Voice + Metronome", "subtitle": "Announcement with metronome", "content": "Classic variant with voice announcement and metronome" },
+      { "title": "Metronome", "subtitle": "Metronome only", "content": "Metronome without voice" },
+      { "title": "Voice + Silence + Bell", "subtitle": "Announcement, 60s silence, bell", "content": "Traditional variant with bell sound at the end" },
+      { "title": "Voice + Silence", "subtitle": "Announcement, 60s silence", "content": "Simple variant with voice announcement" },
+      { "title": "Voice + Metronome + Anthem", "subtitle": "Announcement, metronome, anthem", "content": "Full variant with national anthem" },
+      { "title": "Metronome + Anthem", "subtitle": "Metronome, then anthem", "content": "Metronome and anthem without voice" },
+      { "title": "Bell + Silence + Bell", "subtitle": "Bell, 60s silence, bell", "content": "Classic variant with bell sound" },
+      { "title": "Bell + Metronome + Bell", "subtitle": "Bell, metronome, bell", "content": "Bell at the beginning and end" },
+      { "title": "Anthem Only", "subtitle": "National anthem", "content": "Plays the national anthem" },
+      { "title": "Silence Only", "subtitle": "60 seconds of silence", "content": "Simple 60 second silence" }
+    ]
+  },
+  "origin": {
+    "eyebrow": "Origins",
+    "title": "Original Idea",
+    "description": "The desktop app is a development of Bohdan Hdal's idea — the author of the \"Minute of Silence\" mobile app.",
+    "authorLabel": "Idea Author",
+    "authorName": "Bohdan Hdal",
+    "authorQuote": "What he did",
+    "authorContent": "First implemented the idea of automatic minute of silence in a mobile app for iOS and Android. His interview on \"Radio Culture\" became the impetus for creating this desktop version.",
+    "authorLink": "Mobile App →",
+    "quote": "\"Since this is a thing for the common good, I only welcome any development of the idea\"",
+    "quoteAuthor": "— Bohdan Hdal, April 2026"
+  },
+  "download": {
+    "eyebrow": "Installation",
+    "title": "Download",
+    "description": "Free download for Windows and Linux.",
+    "panelTitle": "Minute of Silence",
+    "platform": "Platform",
+    "platformValue": "Windows 10/11, Linux",
+    "license": "License",
+    "size": "Size",
+    "language": "Language",
+    "languages": "Ukrainian, English",
+    "button": "Download from GitHub"
+  },
+  "faq": {
+    "eyebrow": "Support",
+    "title": "FAQ",
+    "list": [
+      { "q": "Do I need to install it?", "a": "Yes, it's a desktop app for Windows/Linux. Installs once and automatically starts with the system." },
+      { "q": "Does it use many resources?", "a": "No, runs in background. Activates only for a short time at 9:00 AM." },
+      { "q": "Do notifications come before the ceremony?", "a": "Yes, a system notification with a reminder comes 5 minutes before the ceremony." },
+      { "q": "Can I change the time?", "a": "Currently the time is fixed at 9:00 AM. This matches the traditional time for conducting a minute of silence in Ukraine." },
+      { "q": "Can I skip the ceremony?", "a": "Yes, through the app interface or system tray." }
+    ]
+  },
+  "footer": {
+    "madeIn": "Made in Ukraine 🇺🇦",
+    "style": "Minimal brutalism · Black / White · No extra effects"
+  }
+}
