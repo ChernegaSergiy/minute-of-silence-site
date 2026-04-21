@@ -9,7 +9,7 @@ A brutalist landing page for the Minute of Silence desktop app built with [Concr
 
 - **Brutalist Design**: Minimalist black and white interface with bold typography, built using the Concrete CSS framework following brutalist design principles.
 - **Hero Section**: Prominently displays countdown timer to next ceremony at 9:00 AM along with key information about the application.
-- **8 Audio Presets**: Visual showcase of all available ceremony preset options with their descriptions.
+- **10 Audio Presets**: Visual showcase of all available ceremony preset options with their descriptions.
 - **Download Section**: Convenient download links pointing directly to GitHub releases page.
 - **FAQ Accordion**: Expandable accordion with answers to frequently asked questions about the application.
 - **Responsive Layout**: Fully responsive design that adapts seamlessly to both desktop and mobile screen sizes.
