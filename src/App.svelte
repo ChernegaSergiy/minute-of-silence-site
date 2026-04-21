@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { fetchRelease } from './lib/release.js';
+  import { t } from './lib/i18n/index.js';
   import Header from './lib/components/Header.svelte';
   import Hero from './lib/components/Hero.svelte';
   import About from './lib/components/About.svelte';
@@ -11,7 +12,10 @@
   import Faq from './lib/components/Faq.svelte';
   import Footer from './lib/components/Footer.svelte';
 
-  onMount(() => fetchRelease());
+  onMount(() => {
+    fetchRelease();
+    t.init();
+  });
 </script>
 
 <div class="page">
