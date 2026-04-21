@@ -1,4 +1,6 @@
 <script>
+  import { onMount } from 'svelte';
+  import { fetchRelease } from './lib/release.js';
   import Header from './lib/components/Header.svelte';
   import Hero from './lib/components/Hero.svelte';
   import About from './lib/components/About.svelte';
@@ -8,6 +10,8 @@
   import Download from './lib/components/Download.svelte';
   import Faq from './lib/components/Faq.svelte';
   import Footer from './lib/components/Footer.svelte';
+
+  onMount(() => fetchRelease());
 </script>
 
 <div class="page">
