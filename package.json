@@ -1,7 +1,7 @@
 {
   "name": "minute-of-silence-site",
   "version": "1.0.0",
-  "description": "Landing page for Minute of Silence app",
+  "description": "Landing page for Minute of Silence app.",
   "type": "module",
   "scripts": {
     "dev": "vite",
