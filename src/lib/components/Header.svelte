@@ -3,7 +3,7 @@
 
 <header class="header">
   <div class="header-inner">
-    <a href="#" class="logo-block">
+    <a href="/" class="logo-block">
       <div class="logo-mark" aria-hidden="true">ХМ</div>
       <div class="logo-text">
         <div class="logo-text__title">Хвилина мовчання</div>
