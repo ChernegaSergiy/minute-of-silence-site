@@ -1,4 +1,5 @@
 <script>
+  import { release } from '../release.js';
 </script>
 
 <section id="about" class="section">
@@ -24,10 +25,10 @@
       <div class="info-block">
         <div class="info-block__title">Факти</div>
         <ul class="fact-list">
-          <li><span>Версія</span><span class="fact-list__value">0.5.1</span></li>
+          <li><span>Версія</span><span class="fact-list__value">{$release?.version ?? '...'}</span></li>
           <li><span>Ліцензія</span><span class="fact-list__value">CSSM Unlimited v2.0</span></li>
           <li><span>Мова інтерфейсу</span><span class="fact-list__value">Українська, English</span></li>
-          <li><span>Розмір</span><span class="fact-list__value">~15 MB</span></li>
+          <li><span>Розмір</span><span class="fact-list__value">{$release?.windows.size ?? '...'}</span></li>
         </ul>
       </div>
     </div>
