@@ -30,7 +30,7 @@
       </div>
       <aside class="hero__image">
         <div class="hero__image-label">{$t.hero.imageLabel}</div>
-        <img src="/images/screenshot.png" alt="Головне вікно з налаштуваннями" class="w-full" style="max-height: 180px; object-fit: contain;" fetchpriority="high">
+        <img src="/images/screenshot.png" alt={$t.hero.imageAlt} class="w-full" style="max-height: 180px; object-fit: contain;" fetchpriority="high">
         <div class="hero__image-caption">{$t.hero.imageCaption}</div>
       </aside>
     </div>

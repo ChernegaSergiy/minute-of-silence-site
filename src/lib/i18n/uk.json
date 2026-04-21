@@ -24,6 +24,7 @@
     "platform": "ПЛАТФОРМА",
     "platformValue": "WINDOWS / LINUX",
     "imageLabel": "Скріншот додатку",
+    "imageAlt": "Головне вікно з налаштуваннями",
     "imageCaption": "Мінімалістичний інтерфейс налаштувань"
   },
   "about": {

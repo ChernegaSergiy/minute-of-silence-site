@@ -24,6 +24,7 @@
     "platform": "PLATFORM",
     "platformValue": "WINDOWS / LINUX",
     "imageLabel": "App Screenshot",
+    "imageAlt": "Main settings window",
     "imageCaption": "Minimalist settings interface"
   },
   "about": {
