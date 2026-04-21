@@ -22,6 +22,8 @@ A brutalist landing page for the Minute of Silence desktop app built with [Concr
 
 ## Getting started
 
+![Minute of Silence website landing page mockup](assets/landing-page-mockup.png)
+
 To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
