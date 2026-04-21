@@ -81,11 +81,11 @@
       { "title": "Voice + Silence + Bell", "subtitle": "Announcement, 60s silence, bell", "content": "Traditional variant with bell sound at the end" },
       { "title": "Voice + Silence", "subtitle": "Announcement, 60s silence", "content": "Simple variant with voice announcement" },
       { "title": "Voice + Metronome + Anthem", "subtitle": "Announcement, metronome, anthem", "content": "Full variant with national anthem" },
+      { "title": "Voice + Metronome + Ending", "subtitle": "Announcement, metronome, Slava Ukrajini", "content": "Announcement, metronome, then Slava Ukrajini" },
       { "title": "Metronome + Anthem", "subtitle": "Metronome, then anthem", "content": "Metronome and anthem without voice" },
       { "title": "Bell + Silence + Bell", "subtitle": "Bell, 60s silence, bell", "content": "Classic variant with bell sound" },
       { "title": "Bell + Metronome + Bell", "subtitle": "Bell, metronome, bell", "content": "Bell at the beginning and end" },
-      { "title": "Anthem Only", "subtitle": "National anthem", "content": "Plays the national anthem" },
-      { "title": "Silence Only", "subtitle": "60 seconds of silence", "content": "Simple 60 second silence" }
+      { "title": "Silence", "subtitle": "60 seconds of silence", "content": "Simple 60 second silence" }
     ]
   },
   "origin": {
