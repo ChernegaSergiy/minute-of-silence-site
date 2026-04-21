@@ -1,4 +1,5 @@
 <script>
+  import { release } from '../release.js';
 </script>
 
 <section id="download" class="section">
@@ -15,14 +16,14 @@
       <div class="panel max-w-2xl">
         <div class="panel__title">Хвилина мовчання</div>
         <div class="panel__content">
-          <p><strong>Версія 0.5.1</strong></p>
+          <p><strong>Версія {$release?.version ?? '...'}</strong></p>
           <ul class="fact-list">
             <li><span>Платформа</span><span class="fact-list__value">Windows 10/11, Linux</span></li>
-            <li><span>Розмір</span><span class="fact-list__value">~15 MB</span></li>
+            <li><span>Розмір</span><span class="fact-list__value">{$release?.windows.size ?? '...'}</span></li>
             <li><span>Ліцензія</span><span class="fact-list__value">CSSM Unlimited v2.0</span></li>
             <li><span>Мова</span><span class="fact-list__value">Українська, English</span></li>
           </ul>
-          <a href="https://github.com/ChernegaSergiy/minute-of-silence/releases" class="btn btn--primary mt-4 underline hover:underline-wavy" target="_blank">
+          <a href={$release?.htmlUrl ?? 'https://github.com/ChernegaSergiy/minute-of-silence/releases'} class="btn btn--primary mt-4 underline hover:underline-wavy" target="_blank">
             Завантажити з GitHub
           </a>
         </div>
