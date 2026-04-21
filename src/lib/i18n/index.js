@@ -10,8 +10,8 @@ function createI18n() {
   return {
     subscribe,
     init: () => {
-      const path = window.location.pathname;
-      const lang = path.startsWith('/uk/') ? 'uk' : 'en';
+      const urlParams = new URLSearchParams(window.location.search);
+      const lang = urlParams.get('lang') === 'uk' ? 'uk' : 'en';
       set(translations[lang]);
     }
   };
