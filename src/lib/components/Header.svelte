@@ -1,5 +1,4 @@
 <script>
-  let menuOpen = $state(false);
 </script>
 
 <header class="header">
@@ -12,11 +11,7 @@
       </div>
     </a>
 
-    <button 
-      class="nav-toggle" 
-      aria-expanded={menuOpen}
-      onclick={() => menuOpen = !menuOpen}
-    >
+    <button class="nav-toggle">
       МЕНЮ <span></span>
     </button>
 
