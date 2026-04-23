@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://khvylyna.pp.ua/sitemap.xml
