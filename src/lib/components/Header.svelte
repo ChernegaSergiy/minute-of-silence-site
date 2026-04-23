@@ -13,7 +13,7 @@
     </a>
 
     <button class="nav-toggle">
-      МЕНЮ <span></span>
+      {$t.header.menu} <span></span>
     </button>
 
     <nav class="nav" aria-label="Основна навігація">
