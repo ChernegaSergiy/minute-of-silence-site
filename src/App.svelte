@@ -15,6 +15,9 @@
   onMount(() => {
     fetchRelease();
     t.init();
+    t.subscribe((translations) => {
+      document.title = translations.hero.title + ' — ' + translations.hero.kicker;
+    });
   });
 </script>
 
