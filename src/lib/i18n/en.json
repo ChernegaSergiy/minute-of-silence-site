@@ -50,7 +50,7 @@
     "description": "Everything needed to conduct the ceremony.",
     "auto": {
       "name": "⏰ Automatic",
-      "meta": "Starts with Windows/Linux and conducts the ceremony daily at 9:00 AM"
+      "meta": "Starts with Windows/Linux/macOS and conducts the ceremony daily at 9:00 AM"
     },
     "media": {
       "name": "🔇 Stops Media",
