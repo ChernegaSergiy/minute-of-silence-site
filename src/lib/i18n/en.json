@@ -31,7 +31,7 @@
   "about": {
     "eyebrow": "About",
     "title": "What is it?",
-    "description": "Desktop app for Windows and Linux that automatically conducts a minute of silence at 9:00 AM daily.",
+    "description": "Desktop app for Windows, Linux, and macOS that automatically conducts a minute of silence at 9:00 AM daily.",
     "shortly": "Briefly",
     "shortlyContent": "Runs in background with minimal resource usage. Starts automatically with the system. Supports NTP time synchronization.",
     "facts": "Facts",
