@@ -15,7 +15,7 @@
   "hero": {
     "kicker": "Automatic Ceremony",
     "title": "Minute of Silence",
-    "subtitle": "Automatically conducts a minute of silence daily at 9:00 AM. 10 audio presets to choose from.",
+    "subtitle": "Automatically conducts a moment of silence daily at 9:00 AM. 10 audio presets to choose from.",
     "download": "Download",
     "features": "Features",
     "activates": "ACTIVATES",
@@ -31,7 +31,7 @@
   "about": {
     "eyebrow": "About",
     "title": "What is it?",
-    "description": "Desktop app for Windows, Linux, and macOS that automatically conducts a minute of silence at 9:00 AM daily.",
+    "description": "Desktop app for Windows, Linux, and macOS that automatically conducts a moment of silence at 9:00 AM daily.",
     "shortly": "Briefly",
     "shortlyContent": "Runs in background with minimal resource usage. Starts automatically with the system. Supports NTP time synchronization.",
     "facts": "Facts",
@@ -97,7 +97,7 @@
     "authorLabel": "Idea Author",
     "authorName": "Bohdan Hdal",
     "authorQuote": "What he did",
-    "authorContent": "First implemented the idea of automatic minute of silence in a mobile app for iOS and Android. His interview on \"Radio Culture\" became the impetus for creating this desktop version.",
+    "authorContent": "First implemented the idea of automatic moment of silence in a mobile app for iOS and Android. His interview on \"Radio Culture\" became the impetus for creating this desktop version.",
     "authorLink": "Mobile App →",
     "quote": "\"Since this is a thing for the common good, I only welcome any development of the idea\"",
     "quoteAuthor": "— Bohdan Hdal, April 2026"
@@ -123,7 +123,7 @@
       { "q": "Do I need to install it?", "a": "Yes, it's a desktop app for Windows/Linux. Installs once and automatically starts with the system." },
       { "q": "Does it use many resources?", "a": "No, runs in background. Activates only for a short time at 9:00 AM." },
       { "q": "Do notifications come before the ceremony?", "a": "Yes, a system notification with a reminder comes 5 minutes before the ceremony." },
-      { "q": "Can I change the time?", "a": "Currently the time is fixed at 9:00 AM. This matches the traditional time for conducting a minute of silence in Ukraine." },
+      { "q": "Can I change the time?", "a": "Currently the time is fixed at 9:00 AM. This matches the traditional time for conducting a moment of silence in Ukraine." },
       { "q": "Can I skip the ceremony?", "a": "Yes, through the app interface or system tray." }
     ]
   },
