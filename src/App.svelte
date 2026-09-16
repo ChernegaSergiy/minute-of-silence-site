@@ -40,6 +40,7 @@
     <Features />
     <Presets />
     <Origin />
+    <Community />
     <Download />
     <Faq />
   </main>
