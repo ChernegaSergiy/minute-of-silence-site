@@ -21,7 +21,7 @@
       
       <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
         <a href="https://www.instagram.com/vshanuy/"
-           class="btn btn--primary"
+           class="btn bg-white text-black border-white hover:bg-gray-200 hover:border-gray-200"
            target="_blank"
            rel="noopener noreferrer">
           {$t.community.button}
