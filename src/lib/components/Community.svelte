@@ -28,7 +28,7 @@
            class="btn btn--primary"
            target="_blank"
            rel="noopener noreferrer"
-           style="background-color: white; color: black;">
+           style="background-color: white; color: black; border-color: white;">
           {$t.community.button}
         </a>
         
