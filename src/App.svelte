@@ -8,6 +8,7 @@
   import Features from './lib/components/Features.svelte';
   import Presets from './lib/components/Presets.svelte';
   import Origin from './lib/components/Origin.svelte';
+  import Community from './lib/components/Community.svelte';
   import Download from './lib/components/Download.svelte';
   import Faq from './lib/components/Faq.svelte';
   import Footer from './lib/components/Footer.svelte';
