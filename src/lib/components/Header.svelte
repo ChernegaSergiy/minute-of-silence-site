@@ -22,6 +22,7 @@
         <li><a class="nav-link" href="#features">{$t.header.nav.features}</a></li>
         <li><a class="nav-link" href="#presets">{$t.header.nav.presets}</a></li>
         <li><a class="nav-link" href="#origin">{$t.header.nav.origin}</a></li>
+        <li><a class="nav-link" href="#community">{$t.header.nav.community}</a></li>
         <li><a class="nav-link" href="#download">{$t.header.nav.download}</a></li>
         <li><a class="nav-link" href="#faq">{$t.header.nav.faq}</a></li>
       </ul>

@@ -24,3 +24,27 @@ a {
 main {
   flex: 1;
 }
+.community-section {
+  background-image: url('/images/moment-of-honor-bg.jpg');
+  background-size: cover;
+  background-position: center 60%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+.community-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* slight overlay to darken the photo */
+  z-index: 10;
+}
+
+/* Інвертована кнопка для темних секцій */
+.btn-inverted {
+  border-color: #ffffff !important;
+}
+.btn-inverted:active {
+  box-shadow: -2px -2px 0 #ffffff !important;
+}
