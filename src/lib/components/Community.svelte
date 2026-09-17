@@ -27,7 +27,7 @@
           {$t.community.button}
         </a>
         <span class="text-xs uppercase tracking-widest opacity-50 mt-4 sm:mt-0 sm:ml-4">
-          {$t.community.photoCredits}
+          {@html $t.community.photoCredits}
         </span>
       </div>
     </div>

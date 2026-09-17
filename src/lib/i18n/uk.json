@@ -109,7 +109,7 @@
     "description": "Щодня о 09:00 зупиняється не лише наш додаток. Люди по всій країні виходять на вулиці, щоб зробити пам'ять про наших героїв видимою.",
     "supportText": "Khvylyna.pp.ua щиро поділяє цінності громадського руху «Вшануй» і закликає підтримувати їхні акції.",
     "button": "Долучитися в Instagram",
-    "photoCredits": "Фото: Олена Дьоміна"
+    "photoCredits": "Фото: <a href=\"https://www.instagram.com/elen_demina\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline hover:text-white\">Олена Дьоміна</a>"
   },
   "download": {
     "eyebrow": "Встановлення",
