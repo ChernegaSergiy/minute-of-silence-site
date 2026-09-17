@@ -20,7 +20,7 @@
       </p>
       
       <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
-        <a href="https://www.instagram.com/vshanuy/"
+        <a href="https://www.instagram.com/moment_of_honor/"
            class="btn btn-inverted text-black underline hover:underline-wavy"
            target="_blank"
            rel="noopener noreferrer">
