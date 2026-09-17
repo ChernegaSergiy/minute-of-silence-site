@@ -27,7 +27,10 @@
           {$t.community.button}
         </a>
         <span class="text-xs uppercase tracking-widest opacity-50 mt-4 sm:mt-0 sm:ml-4">
-          {@html $t.community.photoCredits}
+          {$t.community.photoCreditsPrefix}
+          <a href="https://www.instagram.com/elen_demina" target="_blank" rel="noopener noreferrer" class="underline hover:text-white transition-colors">
+            {$t.community.photoAuthor}
+          </a>
         </span>
       </div>
     </div>
