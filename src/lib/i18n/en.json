@@ -132,7 +132,7 @@
     "list": [
       { "q": "Do I need to install it?", "a": "Yes, it's a desktop app for Windows/Linux. Installs once and automatically starts with the system." },
       { "q": "Does it use many resources?", "a": "No, runs in background. Activates only for a short time at 9:00 AM." },
-      { "q": "Do notifications come before the ceremony?", "a": "Yes, a system notification with a reminder comes 5 minutes before the ceremony." },
+      { "q": "Do notifications come before the ceremony?", "a": "Notifications are disabled by default. If you enable them in settings, a reminder will appear 5 minutes before the ceremony." },
       { "q": "Can I change the time?", "a": "Currently the time is fixed at 9:00 AM. This matches the traditional time for conducting a moment of silence in Ukraine." },
       { "q": "Can I skip the ceremony?", "a": "Yes, through the app interface or system tray." }
     ]
