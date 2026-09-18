@@ -115,7 +115,7 @@
   "download": {
     "eyebrow": "Встановлення",
     "title": "Завантажити",
-    "description": "Безкоштовне завантаження для Windows та Linux.",
+    "description": "Безкоштовне завантаження для Windows, Linux та macOS.",
     "panelTitle": "Хвилина мовчання",
     "platform": "Платформа",
     "platformValue": "Windows 10/11, Linux, macOS",
