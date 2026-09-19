@@ -40,11 +40,3 @@ main {
   background: rgba(0, 0, 0, 0.4); /* slight overlay to darken the photo */
   z-index: 10;
 }
-
-/* Інвертована кнопка для темних секцій */
-.btn-inverted {
-  border-color: #ffffff !important;
-}
-.btn-inverted:active {
-  box-shadow: -2px -2px 0 #ffffff !important;
-}
