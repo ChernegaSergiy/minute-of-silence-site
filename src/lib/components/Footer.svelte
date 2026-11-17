@@ -9,6 +9,5 @@
   </div>
   <div class="footer-row opacity-70" style="border-top: 1px solid #000; padding-top: 0.5rem;">
     <div>{$t.footer.style}</div>
-    <div>{$t.footer.madeIn}</div>
   </div>
 </footer>
