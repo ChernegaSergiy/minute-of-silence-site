@@ -74,6 +74,17 @@
       "meta": "Automatic volume control during the ceremony"
     }
   },
+  "builder": {
+    "eyebrow": "Audio",
+    "title": "Ceremony Constructor",
+    "description": "Build the ceremony from slots instead of picking a fixed set. The ceremony always uses the single voice you choose.",
+    "list": [
+      { "title": "Opening bell", "subtitle": "Optional", "content": "A bell before the announcement." },
+      { "title": "Announcement", "subtitle": "Optional", "content": "The spoken announcement of the selected voice." },
+      { "title": "Main part", "subtitle": "Required", "content": "The metronome or one minute of silence." },
+      { "title": "Closing", "subtitle": "Optional", "content": "Voice ending, bell or anthem, or nothing." }
+    ]
+  },
   "presets": {
     "eyebrow": "Audio",
     "title": "10 Presets",
