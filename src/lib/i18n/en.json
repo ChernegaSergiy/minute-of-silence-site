@@ -77,7 +77,7 @@
   "builder": {
     "eyebrow": "Audio",
     "title": "Ceremony Constructor",
-    "description": "Build the ceremony from slots instead of picking a fixed set. The ceremony always uses the single voice you choose.",
+    "description": "Build the ceremony from slots instead of picking a fixed set. Voice-based slots use the single voice you choose.",
     "list": [
       { "title": "Opening bell", "subtitle": "Optional", "content": "A bell before the announcement." },
       { "title": "Announcement", "subtitle": "Optional", "content": "The spoken announcement of the selected voice." },
