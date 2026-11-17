@@ -19,8 +19,8 @@
             <span class="hero__meta-value">{$t.hero.activatesValue}</span>
           </div>
           <div class="hero__meta-item">
-            <span class="hero__meta-label">{$t.hero.presets}</span>
-            <span class="hero__meta-value">{$t.hero.presetsValue}</span>
+            <span class="hero__meta-label">{$t.hero.ceremony}</span>
+            <span class="hero__meta-value">{$t.hero.ceremonyValue}</span>
           </div>
           <div class="hero__meta-item">
             <span class="hero__meta-label">{$t.hero.platform}</span>
