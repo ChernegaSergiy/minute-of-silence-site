@@ -5,7 +5,7 @@
 <header class="header">
   <div class="header-inner">
     <a href="/" class="logo-block">
-      <div class="logo-mark" aria-hidden="true">ХМ</div>
+      <img class="logo-mark" src="/logo-header.svg" alt="" aria-hidden="true" />
       <div class="logo-text">
         <div class="logo-text__title">{$t.header.logoTitle}</div>
         <div class="logo-text__subtitle">{$t.header.logoSubtitle}</div>
