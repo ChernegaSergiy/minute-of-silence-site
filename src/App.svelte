@@ -6,7 +6,7 @@
   import Hero from './lib/components/Hero.svelte';
   import About from './lib/components/About.svelte';
   import Features from './lib/components/Features.svelte';
-  import Presets from './lib/components/Presets.svelte';
+  import Builder from './lib/components/Builder.svelte';
   import Origin from './lib/components/Origin.svelte';
   import Community from './lib/components/Community.svelte';
   import Download from './lib/components/Download.svelte';
@@ -38,7 +38,7 @@
     <Hero />
     <About />
     <Features />
-    <Presets />
+    <Builder />
     <Origin />
     <Community />
     <Download />
