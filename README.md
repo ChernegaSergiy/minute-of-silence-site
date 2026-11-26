@@ -1,3 +1,5 @@
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua)
+
 # Minute of Silence Site
 
 [![Deploy to GitHub Pages](https://github.com/ChernegaSergiy/minute-of-silence-site/actions/workflows/deploy.yml/badge.svg)](https://github.com/ChernegaSergiy/minute-of-silence-site/actions/workflows/deploy.yml)
